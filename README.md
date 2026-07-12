@@ -6,7 +6,7 @@ This project builds a complete end-to-end Data Engineering and Machine Learning 
 
 - AWS S3
 - Databricks
-- Apache Spark
+- PySpark
 - ETL Pipeline
 - Feature Engineering
 - Machine Learning
