@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: uber-api
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: uber-api
+
+  template:
+    metadata:
+      labels:
+        app: uber-api
+
+    spec:
+      containers:
+        - name: uber-api
+          image: srilatha0008/uber-api:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000

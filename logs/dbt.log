@@ -1,0 +1,56 @@
+[0m23:58:22.481978 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016BA029EDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016BA01E8E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016BA0318550>]}
+
+
+============================== 23:58:22.500037 | 36ed1fb1-a43b-4a22-a4f6-a0022bb435bd ==============================
+[0m23:58:22.500037 [info ] [MainThread]: Running with dbt=1.11.12
+[0m23:58:22.500037 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init dbt_project', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m23:58:22.516082 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\DELL\.dbt
+[0m23:58:22.517082 [info ] [MainThread]: A project called dbt_project already exists here.
+[0m23:58:22.519087 [debug] [MainThread]: Command `dbt init` succeeded at 23:58:22.518083 after 0.13 seconds
+[0m23:58:22.519087 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016BA033DCD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016BA033C2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016B99992E50>]}
+[0m23:58:22.520085 [debug] [MainThread]: Flushing usage events
+[0m23:58:23.672208 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:03:42.100966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCCEE7D0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCCEF33210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCCEF6D1D0>]}
+
+
+============================== 00:03:42.104471 | 9aff3d42-25fd-4e8d-902e-111bf929c175 ==============================
+[0m00:03:42.104471 [info ] [MainThread]: Running with dbt=1.11.12
+[0m00:03:42.105474 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt init dbt_project', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m00:03:42.122990 [debug] [MainThread]: Starter project path: C:\Users\DELL\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m00:03:42.184983 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:03:42.184983 [info ] [MainThread]: Setting up your profile.
+[0m00:04:49.759672 [info ] [MainThread]: Profile dbt_project written to C:\Users\DELL\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m00:04:49.760672 [debug] [MainThread]: Command `dbt init` succeeded at 00:04:49.760672 after 67.74 seconds
+[0m00:04:49.760672 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCCEFCD950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCCB847090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CCCEF8D410>]}
+[0m00:04:49.761672 [debug] [MainThread]: Flushing usage events
+[0m00:04:50.865808 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:50:34.657071 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A52EFB8650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A53274D2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A53274DC50>]}
+
+
+============================== 00:50:34.661070 | ced70baa-df66-4781-b6da-450f99eb40a7 ==============================
+[0m00:50:34.661070 [info ] [MainThread]: Running with dbt=1.11.12
+[0m00:50:34.662068 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\DELL\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt show --select uber_trip_summary', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m00:50:34.663071 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\DELL\Desktop\project capstone\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m00:50:34.664088 [debug] [MainThread]: Command `dbt show` failed at 00:50:34.664088 after 0.20 seconds
+[0m00:50:34.664088 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A532424850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A532719890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A53267FE90>]}
+[0m00:50:34.665073 [debug] [MainThread]: Flushing usage events
+[0m00:50:35.870756 [debug] [MainThread]: An error was encountered while trying to flush usage events

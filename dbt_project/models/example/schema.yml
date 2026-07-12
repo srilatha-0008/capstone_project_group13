@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: uber_trip_summary
+    description: "Summary of Uber trips grouped by city and payment method."
+
+    columns:
+      - name: city
+        description: "City where the trip occurred"
+
+      - name: payment_method
+        description: "Payment method used"
+
+      - name: total_trips
+        description: "Total number of trips"
+
+      - name: average_fare
+        description: "Average fare amount"
+
+      - name: average_distance
+        description: "Average trip distance"
